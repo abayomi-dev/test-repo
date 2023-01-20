@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{6e40203c-2d58-4ec3-8a2a-cb0b5a9d0326}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{e0bee5d0-d33d-4368-8691-fd366cb3cacb}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\util.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\appLib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\BmpToPrnLogo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\checkopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\ClssProc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\commlib.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\commproc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\cpinpad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\debug.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\emvproc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\emvtest.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\eventmsg.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\fileoper.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\global.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\GUI.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\initpos.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\lng.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\main.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\manage.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\mlogo.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\MultiApp.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\pack8583.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\password.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\print.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\ProcTrans.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\setup.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\Simulate.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\st8583.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\SxxCom.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\SxxComSSL.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\tranproc.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_WAVE_LIB_v305.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\Device_PaxMe_v503.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libClAE_v202.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libClQPBOC_v300.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libCrypto_V1.2.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\MC_PaxMe_v502.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\SFM_EmvPC_v505.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\ssl_win_lib.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_DPAS_LIB_v100.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_ENTRY_LIB_v505.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_JCB_LIB_v101.lib" />
+  </ItemGroup>
+</Project>

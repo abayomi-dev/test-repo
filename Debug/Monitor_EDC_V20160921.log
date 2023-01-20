@@ -1,0 +1,144 @@
+﻿Build started 2017/5/10 16:29:19.
+     1>Project "D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Monitor_EDC_V20160921.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file ".\Debug\Monitor_EDC_V20160921.lastbuildstate".
+       InitializeBuildStatus:
+         Touching ".\Debug\Monitor_EDC_V20160921.unsuccessfulbuild".
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ID:\PaxPayPro2014\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /D _MBCS /X /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TC /analyze- /errorReport:prompt C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\appLib.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\BmpToPrnLogo.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\checkopt.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\ClssProc.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\commlib.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\commproc.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\cpinpad.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\debug.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\emvproc.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\emvtest.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\eventmsg.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\fileoper.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\global.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\GUI.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\initpos.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\lng.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\main.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\manage.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\mlogo.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\MultiApp.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\pack8583.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\password.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\print.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\ProcTrans.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\setup.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\Simulate.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\st8583.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\SxxCom.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\SxxComSSL.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\tranproc.c C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\util.c
+         util.c
+         tranproc.c
+         SxxComSSL.c
+         SxxCom.c
+         st8583.c
+         Simulate.c
+         setup.c
+         ProcTrans.c
+         print.c
+         password.c
+         pack8583.c
+         MultiApp.c
+         mlogo.c
+         manage.c
+         main.c
+         lng.c
+         initpos.c
+         GUI.c
+         global.c
+         fileoper.c
+         Generating Code...
+         Compiling...
+         eventmsg.c
+         emvtest.c
+         emvproc.c
+         debug.c
+         cpinpad.c
+         commproc.c
+         commlib.c
+         ClssProc.c
+         checkopt.c
+         BmpToPrnLogo.c
+         appLib.c
+         Generating Code...
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/Monitor_EDC_V20160921.exe" /INCREMENTAL /NOLOGO /LIBPATH:D:\PaxPayPro2014\LIB payprocore2014.lib EntryVS2010.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libcd.lib /NODEFAULTLIB:libc.lib /MANIFEST /ManifestFile:".\Debug\Monitor_EDC_V20160921.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/Monitor_EDC_V20160921.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\Monitor_EDC_V20160921.lib" /MACHINE:X86 .\Debug/appLib.obj
+         .\Debug/BmpToPrnLogo.obj
+         .\Debug/checkopt.obj
+         .\Debug/ClssProc.obj
+         .\Debug/commlib.obj
+         .\Debug/commproc.obj
+         .\Debug/cpinpad.obj
+         .\Debug/debug.obj
+         .\Debug/emvproc.obj
+         .\Debug/emvtest.obj
+         .\Debug/eventmsg.obj
+         .\Debug/fileoper.obj
+         .\Debug/global.obj
+         .\Debug/GUI.obj
+         .\Debug/initpos.obj
+         .\Debug/lng.obj
+         .\Debug/main.obj
+         .\Debug/manage.obj
+         .\Debug/mlogo.obj
+         .\Debug/MultiApp.obj
+         .\Debug/pack8583.obj
+         .\Debug/password.obj
+         .\Debug/print.obj
+         .\Debug/ProcTrans.obj
+         .\Debug/setup.obj
+         .\Debug/Simulate.obj
+         .\Debug/st8583.obj
+         .\Debug/SxxCom.obj
+         .\Debug/SxxComSSL.obj
+         .\Debug/tranproc.obj
+         .\Debug/util.obj
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\Device_PaxMe_v503.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libClAE_v202.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libClQPBOC_v300.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libCrypto_V1.2.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\MC_PaxMe_v502.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\SFM_EmvPC_v505.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\ssl_win_lib.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_DPAS_LIB_v100.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_ENTRY_LIB_v505.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_JCB_LIB_v101.lib
+         C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_WAVE_LIB_v305.lib
+     1>Device_PaxMe_v503.lib(aes.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'Device_PaxMe_v503.lib(aes.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>Device_PaxMe_v503.lib(Device.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'Device_PaxMe_v503.lib(Device.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>libClAE_v202.lib(Api.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'libClAE_v202.lib(Api.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>libClAE_v202.lib(Auth.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'libClAE_v202.lib(Auth.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>libClAE_v202.lib(Conv.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'libClAE_v202.lib(Conv.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>libClAE_v202.lib(Element.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'libClAE_v202.lib(Element.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>libClAE_v202.lib(PiccCmd.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'libClAE_v202.lib(PiccCmd.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>libClAE_v202.lib(TransProc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'libClAE_v202.lib(TransProc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_app_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_app_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_elements_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_elements_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_icc_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_icc_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_Paypass_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_Paypass_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_pub_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_pub_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_security_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_security_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clss_trans_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clss_trans_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>MC_PaxMe_v502.lib(clssApi_mc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'MC_PaxMe_v502.lib(clssApi_mc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(appman.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(appman.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(elements.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(elements.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(icc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(icc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(pub.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(pub.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(security.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(security.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(trans.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(trans.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>SFM_EmvPC_v505.lib(TransLog.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'SFM_EmvPC_v505.lib(TransLog.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_api_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_api_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_app_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_app_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_discover_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_discover_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_elements_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_elements_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_icc_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_icc_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_security_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_security_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_DPAS_LIB_v100.lib(clss_trans_dpas.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_DPAS_LIB_v100.lib(clss_trans_dpas.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_ENTRY_LIB_v505.lib(CLEntryApi.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_ENTRY_LIB_v505.lib(CLEntryApi.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_ENTRY_LIB_v505.lib(CLEntryIcc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_ENTRY_LIB_v505.lib(CLEntryIcc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_ENTRY_LIB_v505.lib(CLEntryProc.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_ENTRY_LIB_v505.lib(CLEntryProc.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_ENTRY_LIB_v505.lib(CLEntryPub.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_ENTRY_LIB_v505.lib(CLEntryPub.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_api_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_api_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_app_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_app_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_elements_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_elements_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_icc_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_icc_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_jspeedy_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_jspeedy_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_security_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_security_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_JCB_LIB_v101.lib(clss_trans_jcb.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_JCB_LIB_v101.lib(clss_trans_jcb.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clss_app_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clss_app_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clss_elements_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clss_elements_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clss_icc_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clss_icc_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clss_pub_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clss_pub_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clss_security_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clss_security_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clss_trans_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clss_trans_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+     1>VC_WAVE_LIB_v305.lib(clssApi_wave.obj) : warning LNK4099: PDB 'vc60.pdb' was not found with 'VC_WAVE_LIB_v305.lib(clssApi_wave.obj)' or at 'D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Debug\vc60.pdb'; linking object as if no debug info
+         Monitor_EDC_V20160921.vcxproj -> D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\.\Debug\Monitor_EDC_V20160921.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\.\Debug\Monitor_EDC_V20160921.exe.manifest" /manifest .\Debug\Monitor_EDC_V20160921.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file ".\Debug\Monitor_EDC_V20160921.unsuccessfulbuild".
+         Touching ".\Debug\Monitor_EDC_V20160921.lastbuildstate".
+     1>Done Building Project "D:\PaxPayPro2014\myapp\Monitor_EDC_V20160921\Monitor_EDC_V20160921.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.86

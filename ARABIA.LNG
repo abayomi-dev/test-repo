@@ -1,0 +1,537 @@
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\appLib.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\appLib.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\arabic_farsi_api.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\bluetooth_MIPS.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\checkopt.c
+"BATCH FULL" = "zxcxzc"
+"PLS SETTLE BATCH" = 
+"SETTLE PENDING" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\checkopt.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\CLEntryApi.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\ClssApi_MC.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\ClssApi_PBOC.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\ClssApi_Wave.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\ClssProc.c
+"UNSUPPORT CARD" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\ClssProc.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\CL_common.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\commlib.c
+"INVALID PARAM" = 
+"INV COMM TYPE" = 
+"USER CANCEL" = 
+"TIMEOUT" = 
+"COMM ERROR" = 
+"DATA TOO BIG" = 
+"PORT ERROR" = 
+"INVALID PORT" = 
+"PORT CLOSED" = 
+"OVERFLOW" = 
+"NOT AVAIL PORT" = 
+"OPEN PORT ERR" = 
+"LOCAL IP ERR" = 
+"REMOTE IP ERR" = 
+"SET PORT ERR" = 
+"TCP CONN ERR" = 
+"SEND DATA ERR" = 
+"RECV DATA ERR" = 
+"SET GW ERR" = 
+"SET MASK ERR" = 
+"SEND OVERFLOW" = 
+"PHONE OCCUPIED" = 
+"NO DIAL TONE" = 
+"LINE BREAK" = 
+"NO ACK" = 
+"IN DIALING" = 
+"UNSUPPORTED" = 
+"RECV NOT EMPTY" = 
+"BUFFER NOT EMPTY" = 
+"LINE READY" = 
+"RECV REJECTED" = 
+"LINE BUSY" = 
+"INVALID TEL NO" = 
+"LINE READY ?" = 
+"TONE NOT STOP" = 
+"INV DATA LENGTH" = 
+"INTERNAL ERR" = 
+"NEED SIM PIN" = 
+"NEED SIM PUK" = 
+"INVALID CONFIG" = 
+"INVALID SIMPIN" = 
+"NO SIM CARD" = 
+"INVALID TYPE" = 
+"SIM NOT REG." = 
+"LINE OFF" = 
+"REGING" = 
+"DISCONNECTED" = 
+"NO SIGNAL" = 
+"CONN. FAIL" = 
+"CONN. CLOSED" = 
+"PLS RETRY" = 
+"INVALID PWD" = 
+"DIAL FAIL" = 
+"LINK DOWN" = 
+"LOG OUT" = 
+"DNS FAIL" = 
+"NOT INITED" = 
+"Connecting ..." = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\commlib.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\commproc.c
+"RE DIAL ?" = 
+"DIAL FAIL,RETRY?" = 
+"MSG ID MISMATCH" = 
+"BIT 3 MISMATCH" = 
+"STAN MISMATCH" = 
+"TID MISMATCH" = 
+"TEL# ERROR" = 
+"PLS USE PHONE" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\commproc.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\cpinpad.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\cpinpad.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\emvlib.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\emvproc.c
+"NOT ACCEPT" = 
+"PLS TRY AGAIN" = 
+"Select App" = 
+"LAST ENTER PIN" = 
+"PIN ERR, RETRY" = 
+"PLS ENTER PIN" = 
+"PED ERROR" = 
+"PLS USE PINPAD" = 
+"NOT PERMITTED" = 
+"EXT PCI PINPAD" = 
+"NOT IMPLEMENTED." = 
+"PIN VERIFY OK" = 
+"PRINT DETAIL?" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\emvproc.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\emvtest.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\emvtest.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\emv_common.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\eventmsg.c
+"INIT COMM..." = 
+"INIT FAIL" = 
+"PLS CHECK SIM OR\nHARDWARE/SIGNAL." = 
+"PLS CHECK CABLE\nOR CONFIG." = 
+"PLS CHECK SIGNAL\nOR CONFIG." = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\eventmsg.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\fileoper.c
+"DUPLICATE? Y/N" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\fileoper.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\global.c
+"PRE-AUTH" = 
+"AUTH" = 
+"SALE" = 
+"INSTAL" = 
+"ENQUIRE" = 
+"UPLOAD" = 
+"LOGON" = 
+"REFUND" = 
+"REVERSAL" = 
+"SETTLEMENT" = 
+"INITIALIZATION" = 
+"VOID" = 
+"UPLOAD OFFLINE" = 
+"OFFLINE" = 
+"SALECOMP" = 
+"CASH" = 
+"TC-ADVICE" = 
+"ECHO-TEST" = 
+"BIN DOWNLOAD" = 
+"TXN. ACCEPTED" = 
+"PLS CALL BANK" = 
+"CALL REFERRAL" = 
+"INVALID MERCHANT" = 
+"PLS PICK UP CARD" = 
+"DO NOT HONOUR" = 
+"APPROVED WITH ID" = 
+"INVALID TXN" = 
+"INVALID AMOUNT" = 
+"INVALID ACCOUNT" = 
+"RE-ENTER TRANS." = 
+"APPROVED. IDLE" = 
+"INVALID TERMINAL" = 
+"FORMAT ERROR" = 
+"PLEASE CALL-LC" = 
+"PLEASE CALL-CC" = 
+"TXN DECLINED" = 
+"EXPIRED CARD" = 
+"INCORRECT PIN" = 
+"CALL ACQUIRER" = 
+"BAD PRODUCT CODE" = 
+"RECONCILE ERROR" = 
+"TRACE NOT FOUND" = 
+"BAD BATCH NUMBER" = 
+"BATCH NOT FOUND" = 
+"APPRV, CALL AMEX" = 
+"BAD TERMINAL ID" = 
+"SYSTEM NOT AVAIL" = 
+"DUPLICATE TRACE" = 
+"BATCH TRANSFER" = 
+"System Error" = 
+"Host Unavailable" = 
+"Not DCC Eligible" = 
+"CARD AUTH FAIL" = 
+"OFFLINE APPROVAL" = 
+"OFFLINE DECLINE" = 
+"APPROVED" = 
+"DECLINED" = 
+"GO ONLINE FAIL" = 
+"NO UPDATE" = 
+"ERROR SERIAL NO." = 
+"Duplicate Trans" = 
+"NO DCC SGD REQ" = 
+"NO RESPONSE CODE" = 
+"TRY AGAIN - NC" = 
+"TRY AGAIN - CE" = 
+"NO TEL NO" = 
+"USER CANCELED" = 
+"PROCESS FAILED" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\global.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\GUI.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\initpos.c
+"LOAD DEFAULT ? " = 
+"COMPLETED!" = 
+"INITIAL FAIL" = 
+"INIT FINISHED." = 
+"SYSTEM UPDATED." = 
+"REBOOT..." = 
+"PLS REBOOT POS." = 
+"NOT IMPLEMENT" = 
+"MAX # OF ACQ" = 
+"MAX # OF ISSUER" = 
+"MAX # OF CARD" = 
+"MAX # OF PLAN" = 
+"MAX # OF DESC" = 
+"ERR SAVE EMV APP" = 
+"ERR SAVE CAPK" = 
+"COUNTRY CODE" = 
+"MISSING" = 
+"PHONE NO" = 
+"DOWNLOAD ID" = 
+"Loading Param..." = 
+"Loading Failed!" = 
+"Loading Success!" = 
+"CARDBIN OVERFLOW" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\initpos.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\lng.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\lng.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\main.c
+"APP AND DATA\nINCONSIST.\nRESET CONFIG?" = 
+"WARNING\nDATA WILL BE CLEAR\nCONTINUE ?" = 
+"PLEASE WAIT...\nSYSTEM INIT..." = 
+"PLEASE INIT" = 
+"POWER SAVING" = 
+"PRESS ANY KEY\nTO RECOVER" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\manage.c
+"TERMINAL  LOCKED" = 
+"MERCHANT PWD" = 
+"LOCK TERM" = 
+"TERMINAL LOCK? " = 
+"CLEAR BATCH" = 
+"CONFIRM CLEAR" = 
+"CLEAR CONFIG" = 
+"CLEAR PASSWORD" = 
+"CLEAR REVERSAL" = 
+"CLEAR" = 
+"TRANS REVIEW" = 
+"EMPTY BATCH" = 
+"END OF BATCH" = 
+"START OF BATCH" = 
+"REPRINT" = 
+"PRINT TOTAL" = 
+"REPRINT SETTLE" = 
+"NO RECEIPT" = 
+"PRINT ERROR LOG" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\manage.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\mlogo.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\mlogo.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\MultiApp.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\MultiApp.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\pack8583.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\pack8583.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\password.c
+"BANK PASSWORD   " = 
+"ENT TERMINAL PWD" = 
+"ENT MERCHANT PWD" = 
+"VOID PASSWORD   " = 
+"REFUND PASSWORD " = 
+"ADJUST PASSWORD " = 
+"SETTLEMENT PWD  " = 
+"PWD ERROR!" = 
+"CHANGE PWD" = 
+"PWD CHANGED!" = 
+"ENTER NEW PWD" = 
+"RE-ENTER NEW PWD" = 
+"NOT CONSISTENT" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\password.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\PEDPINPAD.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\print.c
+"ADJ" = 
+"" = 
+"CARD TYPE:" = 
+"CARD NO./EXP. DATE" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\print.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\setup.c
+"INIT" = 
+"VIEW RECORD" = 
+"SETUP" = 
+"LANGUAGE" = 
+"VIEW TOTAL" = 
+"ECHO TEST" = 
+"LAST TSI TVR" = 
+"SET TIME" = 
+"PRINT PARA" = 
+"TXN REVIEW" = 
+"ADJUST" = 
+"APP UPDATE" = 
+"CHECK FONTS" = 
+"REPRN SETTLE" = 
+"REPRINT LAST" = 
+"REPRINT BILL" = 
+"PRINT LOG" = 
+"POWER SAVE" = 
+"MODIFY PWD" = 
+"DISP VER" = 
+"SHOW PACKAGE" = 
+"PRINT ERR LOG" = 
+"TEST TRACK1" = 
+"TEST TRACK2" = 
+"TEST TRACK3" = 
+"FUNC NUMBER ERR" = 
+"FUNCTION:" = 
+"TERM SETUP" = 
+"COMM PARA" = 
+"VIEW EDC" = 
+"VIEW ISSUER" = 
+"VIEW ACQUIRER" = 
+"BCD" = 
+"HEXIMAL" = 
+"START" = 
+"STOP" = 
+"INV PORT #" = 
+"NON-EMV FLOOR LIMIT" = 
+"EMV FLOOR LIMIT" = 
+"ADJUST PERCENT" = 
+"REFERRAL TEL" = 
+"TRANS TELNO 1" = 
+"TRANS TELNO 2" = 
+"SETTTLE TELNO 1" = 
+"SETTTLE TELNO 2" = 
+"SETUP EDC" = 
+"INVALID VALUE" = 
+"AREA CODE" = 
+"CURRENCY CODE" = 
+"INVALID CURRENCY" = 
+"DECIMAL POSITION" = 
+"IGNORE DIGIT" = 
+"MERCHANT NAME" = 
+"MERCHANT ADDR" = 
+"INVALID INPUT" = 
+"TERMINAL   PWD" = 
+"BANK       PWD" = 
+"MERCHANT   PWD" = 
+"VOID       PWD" = 
+"REFUND     PWD" = 
+"ADJUST     PWD" = 
+"SETTLE     PWD" = 
+"SELECT LANG" = 
+"POWERSAVE OPTION" = 
+"UNSUPPORTED." = 
+"IDLE: POWER SAVE" = 
+"IDLE: SHUTDOWN  " = 
+"SHUTDOWN" = 
+"SHUTDOWN TIMEOUT" = 
+"PWR SAVE TIMEOUT" = 
+"PLS SWIPE CARD" = 
+"VIEW MSG" = 
+"NO DATA" = 
+"SENDING..." = 
+"SEND OK" = 
+"INVALID PACK" = 
+"Enter PassWord:" = 
+"DHCP ENABLE" = 
+" CONNECTED" = 
+" DEVICE FAILED" = 
+" WIFI NO RESPOND" = 
+" WIFI NOT OPEN" = 
+" NOT CONNECTED" = 
+" PARAM EMPTY" = 
+" PWD ERROR" = 
+" BAN OPERATION" = 
+" CANCELED " = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\setup.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\Simulate.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\Simulate.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\st8583.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\st8583.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\SxxCom.c
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\SxxCom.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\tranproc.c
+"INSTAL SALE " = 
+"INSTAL VOID " = 
+"TRANS CANCELED" = 
+"NOT ALLOW VOID" = 
+"VOID ?" = 
+"CLSS SALE" = 
+"VOID    " = 
+"OFFLINE " = 
+"REFUND  " = 
+"ADJUST  " = 
+"SETTLE  " = 
+"INSTALLMENT" = 
+"PREAUTH " = 
+"AUTH    " = 
+"DO NOT ADJUST" = 
+"NEW TOTAL" = 
+"SETTLE ANYWAY ?" = 
+"PLEASE REPRINT" = 
+"NO TXN TOTAL" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\tranproc.h
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\util.c
+"PLS REMOVE CARD" = 
+"SWIPE/INSERT ..." = 
+"TRANS NOT ALLOW" = 
+"PROCESSING...." = 
+"PLEASE WAIT..." = 
+"DIALING..." = 
+"RECEIVING..." = 
+"PRINTING..." = 
+"CLEARED     " = 
+"FREE" = 
+"TERM ID" = 
+"VERSION" = 
+"FUNCTION ?" = 
+"HALT FOR SAFETY " = 
+"PLS RESTART POS " = 
+"READ CARD ERR." = 
+"TXN ACCEPTED" = 
+"INVALID CARD" = 
+"ERR EXP. FORMAT" = 
+"CARD EXPIRED" = 
+"UNSUPPORTED\nCARD" = 
+"EMV IS NOT\nALLOWED" = 
+"PLS SWIPE AGAIN" = 
+"SELECT  HOST" = 
+"NON EMV,RE-SWIPE" = 
+"PLS INSERT CARD" = 
+"CARD ERROR" = 
+"ENTER 4DBC" = 
+"SECURITY CODE" = 
+"NOT ACCEPTED" = 
+"FALL BACK" = 
+"PULL OUT" = 
+"EXCEED LIMIT" = 
+"SELECT PLAN" = 
+"LOWER THAN" = 
+"LIMIT AMOUNT" = 
+"BASE AMOUNT" = 
+"ENTER AMOUNT" = 
+"REFUND AMOUNT" = 
+"ORIGINAL AMOUNT" = 
+"ENTER TIP" = 
+"AMOUNT ERROR" = 
+"OVER LIMIT" = 
+"CORRECT ?" = 
+"ENTER ACCOUNT NO" = 
+"NOT ALLOW MANUL" = 
+"EXP DATE: MMYY" = 
+"PRODUCT CODE?" = 
+"INV MAC DATA" = 
+"INVALID KEY ID" = 
+"INVALID MODE" = 
+"KEY MISSING" = 
+"INVALID KEY INDEX" = 
+"INVALID KEY LEVEL" = 
+"CHECK KEY FAIL" = 
+"PIN BYPASS" = 
+"INPUT CANCELLED" = 
+"PLS TRY AGAIN LATER" = 
+"PED ACCESS DENIALED" = 
+"INVALID KEY TYPE" = 
+"INVALID PARA" = 
+"INVALID DST INDEX" = 
+"INVALID SRC INDEX" = 
+"INVALID KEY LENGTH" = 
+"CARD NOT READY" = 
+"CARD NOT INIT" = 
+"INVALID GROUP INDEX" = 
+"PED LOCKED" = 
+"PED GENERAL ERR" = 
+"APPV CODE ?" = 
+"TRACE NO ?" = 
+"NO ACQUIRER" = 
+"NO ISSUER" = 
+"VOIDED SALE" = 
+"VOIDED REFD" = 
+"LINK IS OK" = 
+"LOGON COMPLETE" = 
+"APPV CODE" = 
+"SYSTEM ERROR" = 
+"CONNECT SIMULTR." = 
+"FAIL GET SYSINFO" = 
+"ENUM SYS FONTS" = 
+"ENUM FAILED" = 
+"NOT SUPPORTED" = 
+"RETURN TO BASE" = 
+
+// E:\Linhb\projects\NEW_EDC\EDC_TEMPLATE_MP\Source\util.h

@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\appLib.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\BmpToPrnLogo.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\checkopt.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\ClssProc.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\commlib.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\commproc.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\cpinpad.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\debug.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\emvproc.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\emvtest.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\eventmsg.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\fileoper.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\global.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\GUI.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\initpos.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\lng.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\main.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\manage.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\mlogo.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\MultiApp.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\pack8583.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\password.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\print.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\ProcTrans.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\setup.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\Simulate.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\st8583.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\SxxCom.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\SxxComSSL.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\tranproc.c" />
+    <ClCompile Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\Source\util.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\Device_PaxMe_v503.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libClAE_v202.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libClQPBOC_v300.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\libCrypto_V1.2.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\MC_PaxMe_v502.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\SFM_EmvPC_v505.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\ssl_win_lib.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_DPAS_LIB_v100.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_ENTRY_LIB_v505.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_JCB_LIB_v101.lib" />
+    <Library Include="C:\Users\dongjie\Desktop\v1.02.02_20160921\lib\VC_WAVE_LIB_v305.lib" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCTargetsPath Condition="'$(DesignTimeBuild)'!='true' AND ($(Configuration.Contains('Linux')) OR $(Platform.Contains('Linux')))">./</VCTargetsPath>
+    <MSBuildProjectExtensionsPath Condition="'$(DesignTimeBuild)'!='true' AND ($(Configuration.Contains('Linux')) OR $(Platform.Contains('Linux')))">./</MSBuildProjectExtensionsPath>
+    <GCCBuild_UseWSL>false</GCCBuild_UseWSL>
+    <GCCToolCompilerStyle Condition="$(Configuration.Contains('Wasm'))">llvm</GCCToolCompilerStyle>
+
+    <VCTargetsPath Condition="'$(DesignTimeBuild)'!='true' AND $(Configuration.Contains('Wasm'))">./</VCTargetsPath>
+    <MSBuildProjectExtensionsPath Condition="'$(DesignTimeBuild)'!='true' AND $(Configuration.Contains('Wasm'))">./</MSBuildProjectExtensionsPath>
+
+    <VCTargetsPath Condition="'$(DesignTimeBuild)'!='true' AND ($(Configuration.Contains('GCC')) OR $(Platform.Contains('GCC')))">./</VCTargetsPath>
+    <MSBuildProjectExtensionsPath Condition="'$(DesignTimeBuild)'!='true' AND ($(Configuration.Contains('GCC')) OR $(Platform.Contains('GCC')))">./</MSBuildProjectExtensionsPath>
+
+    <ProjectGuid>{079a9273-6d04-4939-8ccc-9ad7182182f7}</ProjectGuid>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" Condition="'$(VCTargetsPath)' != '.' AND '$(VCTargetsPath)' != '.\' AND '$(VCTargetsPath)' != './'" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.\Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <EmbedManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</EmbedManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TargetEnvironment>Win32</TargetEnvironment>
+      <TypeLibraryName>.\Debug/Monitor_EDC_V20160921.tlb</TypeLibraryName>
+      <HeaderFileName>
+      </HeaderFileName>
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>D:\PaxPayPro2014\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/Monitor_EDC_V20160921.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x0804</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalDependencies>payprocore2014.lib;EntryVS2010.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/Monitor_EDC_V20160921.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <AdditionalLibraryDirectories>D:\PaxPayPro2014\LIB;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/Monitor_EDC_V20160921.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention>
+      </DataExecutionPrevention>
+      <TargetMachine>MachineX86</TargetMachine>
+      <IgnoreSpecificDefaultLibraries>libcd.lib;libc.lib</IgnoreSpecificDefaultLibraries>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/Monitor_EDC_V20160921.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" Condition="'$(VCTargetsPath)' != '.' AND '$(VCTargetsPath)' != '.\' AND '$(VCTargetsPath)' != './'" />
+
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

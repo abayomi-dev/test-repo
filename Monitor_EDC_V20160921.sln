@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{24e1ae40-e4e9-4add-bf14-b18337d507ea}") = "Monitor_EDC_V20160921", "Monitor_EDC_V20160921.vcxproj", "{079a9273-6d04-4939-8ccc-9ad7182182f7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{079a9273-6d04-4939-8ccc-9ad7182182f7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{079a9273-6d04-4939-8ccc-9ad7182182f7}.Debug|Win32.Build.0 = Debug|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
